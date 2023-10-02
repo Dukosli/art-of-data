@@ -11,7 +11,7 @@ People have been wondering what Digimon are. So here are some quick FaQ's to be 
 1. What is the average speed (Spd) of all Digimon?
 It is 120.4 in obscure units.
 2. Write a function that can count the number of Digimon with a specific attribute. For example, count_digimon("Type", "Vaccine") would return 70.
-
+As Digimon are probably very digital beings, coding questions are quite common. Here is a bit of code to help with this:
 ~~~
 def count_stat(type, stat):
     with open("datasets/digimon.csv", "r") as f:

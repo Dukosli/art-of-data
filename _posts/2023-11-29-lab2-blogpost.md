@@ -10,7 +10,7 @@ tags: [books, test]
 
 1. Discuss how you used the API to obtain the dataset.
 
-## Analysis Results
+### Analysis Results
 
 Now for the analysis of the socks in Animal Crossing. Using the program using the Animal Crossing API, I found that the following socks had the most variations of color. The highest count of variations was eight socks, and the following socks had that many variations:
 
@@ -51,9 +51,16 @@ Black: 65<br>
 Beige: 16<br>
 Gray: 33<br>
 Brown: 11<br>
-Colorful: 14<br>
+Colorful: 14<be>
 
-1. How many socks of each color are there? If a sock has two different colors, it should be counted in both. However, if a sock has the same Color1 and Color2, make sure you don’t double count it!
+
+### Code Discussion
+
+
+The way the program got this data is by first creating a few dictionaries and lists to store the analysis data. Then, it ran a while loop that would check every index from the responses from the API that would break when the API gave an invalid response. For each iteration in the loop, the response from the API would get saved into a variable called data, and the information would be taken from data and put into its respective dictionary or list. For the number of variations, this meant that it would count how many variations of each sock there was, while also counting whether or not that number of variations was greater than the greatest number of variations from the iteration before. For sock colors, it counted the number of socks of a color in a dictionary, and if the color was not already in the dictionary, it would be added. After the loop finished this process, the number of variations dictionary was iterated through to find how many socks had variations equal to the greatest counted number of variations. Finally, the data was printed and copy and pasted here.
+
+
+
 1. Discuss your process of how you worked on this lab. Include details such as who you worked with, what methods you tried, what worked or didn’t work, what could have gone better, and what you learned during this lab. Focus more on the programming side of the lab! Feel free to attach images, screenshots, pseudocode, etc to elaborate on your response.
-Submit your Python file(s) and a link to your blog post on Google Classroom.
+
 

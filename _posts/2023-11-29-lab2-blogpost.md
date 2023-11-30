@@ -10,7 +10,7 @@ tags: [books, test]
 
 1. Discuss how you used the API to obtain the dataset.
 
-
+#Analysis Results
 
 Now for the analysis of the socks in Animal Crossing. Using the program using the Animal Crossing API, I found that the following socks had the most variations of color. The highest count of variations was eight socks, and the following socks had that many variations:
 
@@ -35,7 +35,8 @@ vivid socks<br>
 vivid tights<be>
 
 
-<td>For a similar analysis of the variations, my program also counted how many different colors and how many of them existed in all the socks. Since every sock had two colors, the socks with the same first and second colors only had that color counted once. Here are the numbers of each color:
+For a similar analysis of the variations, my program also counted how many different colors and how many of them existed in all the socks. Since every sock had two colors, the socks with the same first and second colors only had that color counted once. Here are the numbers of each color:
+
 
 Pink: 44<br>
 Red: 43<br>

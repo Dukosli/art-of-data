@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Animal Crossing: Socks and APIs
-subtitle: The journey
+title: Animal Crossing (colon) Socks and APIs
+subtitle: The Journey
 cover-img: /assets/img/img-academy-0Kqhnq.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg

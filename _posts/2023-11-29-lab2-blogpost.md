@@ -7,8 +7,13 @@ thumbnail-img: /assets/img/GUEST_50df8e55-aeac-4e60-85e7-5fe5208e9a5c.jpg
 share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
+In this lab, we used APIs to obtain data about the socks in Animal Crossing.
 
-1. Discuss how you used the API to obtain the dataset.
+
+## APIs? How that?
+
+We requested responses from an API hosted on a server that stored the data we needed to complete this lab. Using the requests module in Python, we could get the data we needed from the API by requesting the data from a specific HTTP URL, "https://afeingoldhm.pythonanywhere.com/socks". The data was locked, so we needed to use a key in the request parameters for the API, as well as an index number to get a specific response from the API. Using the requests module, we could access the data stored at a specific URL using the access key so that the API could recognize the client, me, and use the index number to get information about a specific sock.
+
 
 ### Analysis Results
 
@@ -56,8 +61,10 @@ Colorful: 14<be>
 
 ### Code Discussion
 
-
 The program got this data by first creating a few dictionaries and lists to store the analysis data. Then, it ran a while loop that would check every index from the responses from the API until the API could not give another response. For each iteration in the loop, the response from the API would get saved into a variable called data, and the information would be taken from data and put into its respective dictionary or list. For the number of variations, this meant that it would count how many variations of each sock there were, while also counting whether or not that number of variations was greater than the greatest number of variations from the iteration before. For sock colors, it counted the number of socks of a color in a dictionary, and if the color were not already in the dictionary, it would be added. After the loop finished this process, the number of variations dictionary was iterated through to find how many socks had variations equal to the greatest counted number of variations. Finally, the data was printed, copied, and pasted here.
+
+
+### Process
 
 
 

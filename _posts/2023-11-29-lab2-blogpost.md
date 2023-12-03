@@ -35,7 +35,7 @@ vivid socks<br>
 vivid tights<be>
 
 
-For a similar analysis of the variations, my program also counted how many different colors and how many of them existed in all the socks. Since every sock had two colors, the socks with the same first and second colors only had that color counted once. Here are the numbers of each color:
+For a similar analysis of the variations, my program also counted how many colors and how many of them existed in all the socks. Since every sock had two colors, the socks with the same first and second colors only had that color counted once. Here are the numbers of each color:
 
 
 Pink: 44<br>
@@ -57,7 +57,7 @@ Colorful: 14<be>
 ### Code Discussion
 
 
-The way the program got this data is by first creating a few dictionaries and lists to store the analysis data. Then, it ran a while loop that would check every index from the responses from the API that would break when the API gave an invalid response. For each iteration in the loop, the response from the API would get saved into a variable called data, and the information would be taken from data and put into its respective dictionary or list. For the number of variations, this meant that it would count how many variations of each sock there was, while also counting whether or not that number of variations was greater than the greatest number of variations from the iteration before. For sock colors, it counted the number of socks of a color in a dictionary, and if the color was not already in the dictionary, it would be added. After the loop finished this process, the number of variations dictionary was iterated through to find how many socks had variations equal to the greatest counted number of variations. Finally, the data was printed and copy and pasted here.
+The program got this data by first creating a few dictionaries and lists to store the analysis data. Then, it ran a while loop that would check every index from the responses from the API until the API could not give another response. For each iteration in the loop, the response from the API would get saved into a variable called data, and the information would be taken from data and put into its respective dictionary or list. For the number of variations, this meant that it would count how many variations of each sock there were, while also counting whether or not that number of variations was greater than the greatest number of variations from the iteration before. For sock colors, it counted the number of socks of a color in a dictionary, and if the color were not already in the dictionary, it would be added. After the loop finished this process, the number of variations dictionary was iterated through to find how many socks had variations equal to the greatest counted number of variations. Finally, the data was printed, copied, and pasted here.
 
 
 

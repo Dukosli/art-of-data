@@ -2,8 +2,9 @@
 layout: post
 title: 1.4 Lab 1 Blog Post
 subtitle: Experience with first lab assignment by Aydan
-cover-img: /assets/img/img-academy-0Kqhnq.jpg
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/pikachu.jpg
+thumbnail-img: /assets/img/pikachu.jpg
+share-img: /assets/img/pikachu.jpg
 tags: [books, test]
 ---
 People have been wondering what Digimon is. So here are some quick FaQs to be answered:

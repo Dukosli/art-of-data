@@ -67,7 +67,46 @@ The program got this data by first creating a few dictionaries and lists to stor
 ### Process
 
 
+To start the lab, before writing anything, I decided to start writing the program to find the information we needed. I worked with Ellen towards both the beginning and end of the coding portion of the lab. At the start, we worked together to figure out how to get responses from the API, including how to format the payload to get the responses from the API we wanted. In the end, it looked as it did below.
 
-1. Discuss your process of how you worked on this lab. Include details such as who you worked with, what methods you tried, what worked or didn’t work, what could have gone better, and what you learned during this lab. Focus more on the programming side of the lab! Feel free to attach images, screenshots, pseudocode, etc to elaborate on your response.
+
+~~~
+payload = {'key': API_KEY, 'idx': num}
+response = requests.get(BASE_URL + ENDPOINT, params = payload)
+~~~
 
 
+I encountered some brief problems while trying to run the code, first because VsCode had some strange problems where the requests module did not exist (solved by running the file through terminal and Spyder), and second because the file with the code had the same name as another file (socks.py) which did a circular import of socks and requests (solved by renaming the file). The remainder of the time spent coding the first assignment of the lab went quickly and smoothly. The only trouble occurred with small spelling and formatting mistakes. I would sometimes ask Ellen for help to figure out what was wrong, and she would help me spot the errors. 
+
+
+Then, I started working on the second assignment in the lab. Initially, I tried to get the data with two separate functions, but since I chose not to create a CSV to store the data from the API, I decided to make a single function so I would only have to request the data from the API once. After adding some new variables and a couple if statements, the program ran smoothly. However, after reviewing the data with Ellen, I realized the data for the second assignment was wrong. I had not read that there was double counting among sock colors and thus had failed to account for that. Initially, it looked like this.
+
+
+~~~
+if data["Color 1"] not in colors:
+    colors[data["Color 1"]] = 1
+else:
+    colors[data["Color 1"]] += 1
+if data["Color 2"] not in colors:
+    colors[data["Color 2"]] = 1
+else:
+    colors[data["Color 2"]] +=1
+~~~
+
+
+The problem was that the else in the second if statement would add "Color 2," even if it was double counting "Color 1." The fix was simple but required many minutes of verbal reasoning with Ellen to fix it since we kept backtracking. Ironically, the first fix I made was right but I convinced myself it was wrong. In the end, it turned out to be right and the conditionals for the second assignment are as follows.
+
+
+~~~
+if data["Color 1"] not in colors:
+    colors[data["Color 1"]] = 1
+else:
+    colors[data["Color 1"]] += 1
+if data["Color 2"] not in colors:
+    colors[data["Color 2"]] = 1
+elif data["Color 1"] != data["Color 2"]:
+    colors[data["Color 2"]] += 1
+~~~
+
+
+In the end, the entire coding bit went smoothly more or less, with great efficiency as well thanks to Ellen. 

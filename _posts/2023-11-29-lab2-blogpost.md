@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Animal Crossing Socks and APIs
-subtitle: The Journey of :socks:
+subtitle: The Journey of 🧦
 cover-img: /assets/img/image.avif
 thumbnail-img: /assets/img/GUEST_50df8e55-aeac-4e60-85e7-5fe5208e9a5c.jpg
 share-img: /assets/img/path.jpg

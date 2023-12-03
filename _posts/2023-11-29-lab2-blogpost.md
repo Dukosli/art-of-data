@@ -67,7 +67,7 @@ The program got this data by first creating a few dictionaries and lists to stor
 ### Process
 
 
-To start the lab, before writing anything, I decided to start writing the program to find the information we needed. I worked with Ellen towards both the beginning and end of the coding portion of the lab. At the start, we worked together to figure out how to get responses from the API, including how to format the payload to get the responses from the API we wanted. In the end, it looked as it did below.
+To start the lab, before writing anything, I decided to start writing the program to find the information we needed. I worked with Ellen towards both the beginning and end of the coding portion of the lab. At the start, we worked together to figure out how to get responses from the API, including how to format the payload to get the responses from the API we wanted. In the end, using the introduction to APIs assignment, it looked as it did below.
 
 
 ~~~
@@ -90,7 +90,7 @@ else:
 if data["Color 2"] not in colors:
     colors[data["Color 2"]] = 1
 else:
-    colors[data["Color 2"]] +=1
+    colors[data["Color 2"]] += 1
 ~~~
 
 
@@ -109,4 +109,4 @@ elif data["Color 1"] != data["Color 2"]:
 ~~~
 
 
-In the end, the entire coding bit went smoothly more or less, with great efficiency as well thanks to Ellen. 
+In the end, the entire coding bit went smoothly more or less, with great efficiency as well thanks to Ellen. I learned how to use APIs, which was really cool and something I'm pretty sure I'll use again in the future. I feel as though this lab also could not have gone better, apart from technical issues with software during testing. However, these issues have left me more prepared for the future as I also now know how to deal with these issues for the future.

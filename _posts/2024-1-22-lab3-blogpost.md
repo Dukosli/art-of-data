@@ -18,7 +18,11 @@ I want to determine whether or not I should shut my computer down when I do not 
 
 In the lab, I primarily focused on the variables TimeStamp, the time the data was recorded, ScreenOn, whether the screen was on when data was collected, and TotalEnergyConsumption, the total energy consumed over a period given in mJ.
 
-Overall, the data looks skewed left, towards the start of school. This makes sense as I did not use my computer as much during the break, as opposed to when I needed to use it for school and assignments. There also seems to be a very high peak near New Year's on the left side. I also wanted to get an average of the energy used when the screen was on and off, so I did.
+Overall, the data looks skewed left, towards the start of school. This makes sense as I did not use my computer as much during the break, as opposed to when I needed to use it for school and assignments. There also seems to be a very high peak near New Year's on the left side. I also wanted to get an average of the energy used when the screen was on and off, so I did:
+
+| Screen On | Screen Off |
+| :--- |:--- |
+| 1.97e+07 | 5.12e+07 |
 
 3. Relationships between variables
 

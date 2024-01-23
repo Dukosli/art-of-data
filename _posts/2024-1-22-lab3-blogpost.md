@@ -30,8 +30,6 @@ Unsurprisingly, there was a positive correlation between ScreenOn and TotalEnerg
 
 ![Data Visualization](https://github.com/Dukosli/art-of-data/blob/master/assets/img/8980ea8e-6da2-4548-b226-d9e32fab928a.png)
 
-Of course, the dataset is not perfect. According to devblog above, "the data provided are estimates and don’t necessarily reflect the energy at the wall (key things missing will be loss from the AC adapter, fans, discreet GPU utilization and a few other items)." This means that the data collected was an underestimation of the true total energy consumed. Furthermore, 
+Of course, the dataset is not perfect. According to devblog above, "the data provided are estimates and don’t necessarily reflect the energy at the wall (key things missing will be loss from the AC adapter, fans, discreet GPU utilization and a few other items)." This means that the data collected was an underestimation of the true total energy consumed. Furthermore, the means shown are not entirely accurate since the intervals at which the time the data was taken are only similar in duration, but not equal.
 
-6. What conclusions can you draw about this dataset? What is your supporting evidence?
-
-Earlier, I came to the conclusion that not shutting down my computer led to tremendous losses of energy for the Earth. But how catastrophic? Using the mJ to mtCO2e conversion from the devlog above, I can confirm that my computer expended 2.62e-06 metric tons of carbon dioxide equivalent.
+To conclude, earlier, I came to the conclusion that not shutting down my computer led to tremendous losses of energy for the Earth. But how catastrophic? Using the mJ to mtCO2e conversion from the devlog above, I can confirm that my computer expended while off approximately on average 2.62e-06 metric tons of carbon dioxide equivalent.

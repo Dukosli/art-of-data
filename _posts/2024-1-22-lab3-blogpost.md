@@ -28,7 +28,7 @@ The table above shows the mean energy per record. My computer was using 38.5% of
 
 Unsurprisingly, there was a positive correlation between ScreenOn and TotalEnergyConsumption, considering the boolean as an integer binary. Surprisingly, the power average power usage of my computer while it was off was not much lower than the average when it was on, which is interesting. 
 
-![Data Visualization](https://github.com/Dukosli/art-of-data/blob/master/assets/img/8980ea8e-6da2-4548-b226-d9e32fab928a.png)
+![Data Visualization](../assets/img/8980ea8e-6da2-4548-b226-d9e32fab928a.png)
 
 Of course, the dataset is not perfect. According to devblog above, "the data provided are estimates and don’t necessarily reflect the energy at the wall (key things missing will be loss from the AC adapter, fans, discreet GPU utilization and a few other items)." This means that the data collected was an underestimation of the true total energy consumed. Furthermore, the means shown are not entirely accurate since the intervals at which the time the data was taken are only similar in duration, but not equal.
 

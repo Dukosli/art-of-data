@@ -12,7 +12,7 @@ In this lab, I used the System Resource Usage Monitor Utility command on my Wind
 ~~~
 powerpowercfg /srumutil /output PATH\srumutil.csv
 ~~~
-This data interested me because I can use it to find out how much power I use while active, as well has how much energy I waste while idling or closing my computer (without shutting it off). Since I never shut my computer down (foolishly), I can see what impacts this has had on the world by using the mtCO2e conversion from https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/ and my data given in mJ.
+This data interested me because I can use it to find out how much power I use while active, as well has how much energy I waste while idling or closing my computer (without shutting it off). Since I never shut my computer down (foolishly), I can see what impacts this has had on the world by using the mtCO2e conversion from [Measuring Your Application Power and Carbon Impact Part 1](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/) and my data given in mJ.
 
 
 Discuss your analysis of the dataset. Include details such as:

@@ -26,6 +26,9 @@ In the lab, I primarily focused on the variables TimeStamp, the time at which th
 Unsurprisingly, there was a positive correlation between ScreenOn and TotalEnergyConsumption, considering the boolean as an integer binary. Surprisingly, the power average power usage of my computer while it was off was not much lower than the average when it was on, which is interesting. 
 
 4. Visualizations of the dataset
+
+![Data Visualization](https://github.com/Dukosli/art-of-data/blob/master/assets/img/8980ea8e-6da2-4548-b226-d9e32fab928a.png)
+
 5. Limitations of your analysis and the dataset
 
 Of course, the dataset is not perfect. According to devblog above, "the data provided are estimates and don’t necessarily reflect the energy at the wall (key things missing will be loss from the AC adapter, fans, discreet GPU utilization and a few other items)." This means that the data collected was an underestimation of the true total energy consumed. 

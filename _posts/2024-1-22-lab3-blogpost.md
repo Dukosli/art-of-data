@@ -12,13 +12,8 @@ In this lab, I used the System Resource Usage Monitor Utility command on my Wind
 ~~~
 powerpowercfg /srumutil /output PATH\srumutil.csv
 ~~~
+This data interested me because I can use it to find out how much power I use while active, as well has how much energy I waste while idling or closing my computer (without shutting it off). Since I never shut my computer down (foolishly), I can see what impacts this has had on the world by using the mtCO2e conversion from https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/ and my data given in mJ.
 
-2. Which aspect of this dataset are you interested in? What do you hope to learn from analyzing this
-dataset?
-
-
-
-I am interested in power usage over time when the computer is on and off. I hope to learn the CO2 use equivalent used by my computer. Then I can measure my environmental impact over the course of the week. 
 
 Discuss your analysis of the dataset. Include details such as:
 1. The variables you looked at

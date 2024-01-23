@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What My Battery Usage Tells Me
-subtitle: Using CO2 Emission Equivalents
+subtitle: Don't Shut Down Your Computer Because It's Healthy. Do It Because It's Good for the Environment.
 cover-img: /assets/img/upgrading-laptop-battery-calibrating-charging-pcexpertservice.jpg
 thumbnail-img: /assets/img/hero-image.fill.size_994x559.v1678673307.jpg
 share-img: /assets/img/hero-image.fill.size_994x559.v1678673307.jpg

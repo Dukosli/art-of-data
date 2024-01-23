@@ -16,11 +16,10 @@ This data interested me because I can use it to find out how much power I use wh
 
 I want to determine whether or not I should shut my computer down when I do not use it for long periods, determined purely from an environmental standpoint. Sure, it is a drag, but this data can tell me whether or not it is worth it using the mtCO2e conversion. 
 
-In the lab, I primarily focused on the variables TimeStamp, the time at which the data was recorded, ScreenOn, whether the screen was on when data was collected, and TotalEnergyConsumption, the total energy consumed over a period given in mJ.
+In the lab, I primarily focused on the variables TimeStamp, the time the data was recorded, ScreenOn, whether the screen was on when data was collected, and TotalEnergyConsumption, the total energy consumed over a period given in mJ.
 
+Overall, the data looks skewed left, towards the start of school. This makes sense as I did not use my computer as much during the break, as opposed to when I needed to use it for school and assignments. There also seems to be a very high peak near New Year's on the left side. I also wanted to get an average of the energy used when the screen was on and off, so I did.
 
-
-2. Distributions of variables (center and variability)
 3. Relationships between variables
 
 Unsurprisingly, there was a positive correlation between ScreenOn and TotalEnergyConsumption, considering the boolean as an integer binary. Surprisingly, the power average power usage of my computer while it was off was not much lower than the average when it was on, which is interesting. 

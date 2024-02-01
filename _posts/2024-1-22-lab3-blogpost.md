@@ -10,7 +10,7 @@ tags: [books, test]
 
 In this lab, I used the System Resource Usage Monitor Utility command on my Windows computer to generate a "battery report," which lists rudimentary data on energy usage per source of usage for each running program over time. On Windows, it is easy to acquire this data. Simply use the following command to generate the csv on the file path PATH:
 ~~~
-powerpowercfg /srumutil /output PATH\srumutil.csv
+powercfg /srumutil /output PATH\srumutil.csv
 ~~~
 This data interested me because I can use it to find out how much power I use while active, as well has how much energy I waste while idling or closing my computer (without shutting it off). Since I never shut my computer down (foolishly), I can see what impacts this has had on the world by using the mtCO2e conversion from [Measuring Your Application Power and Carbon Impact Part 1](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/) and my data given in mJ. Of course, this needs a point to it. 
 
@@ -20,7 +20,7 @@ In the lab, I primarily focused on the variables TimeStamp, the time the data wa
 
 Overall, the data looks skewed left, towards the start of school. This makes sense as I did not use my computer as much during the break, as opposed to when I needed to use it for school and assignments. There also seems to be a very high peak near New Year's on the left side. I also wanted to get an average of the energy used when the screen was on and off, so I did:
 
-| | Screen On | Screen Off |
+| | Screen Off | Screen On |
 | :--- | :--- | :--- |
 | Mean Energy | 1.97e+07 | 5.12e+07 |
 
